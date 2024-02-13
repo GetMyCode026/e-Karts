@@ -15,15 +15,18 @@
     color: white;
 }
 .search-bar{
-    width: 60%;
+    width: 50%;
 }
 .search-bar input{
-    width: 55%;
+    width: 87%;
     padding: 3px 0;
 }
 .search-bar ::placeholder{
     font-weight: bold;
     text-align: center;
+}
+.mar{
+    margin: auto;
 }
 .Kart{
     width: 20%;

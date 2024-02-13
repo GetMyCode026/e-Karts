@@ -27,8 +27,8 @@ function ProductD({ cart, setCart }) {
         }
         setCart([...cart, obj])
         //   console.warn(cart)
-        
-           
+
+
     }
 
 
@@ -37,15 +37,17 @@ function ProductD({ cart, setCart }) {
 
         <>
 
-
-
-
-
             <div className='container con'>
-                <div className='img'>
-                    <img src={product.imgSrc} alt='' />
-                </div>
-                <div className='text-center'>
+                <div className='row'>
+                    <div className='col-sm-6 '>
+                        <div className='img'>
+                            <img src={product.imgSrc} alt='' />
+                        </div>
+
+                        
+                    </div>
+                    <div className='col-sm-6 mar'>
+                    <div className='text-center'>
                     <h1 class="card-title">{product.title}</h1>
                     <p class="card-text">{product.description}</p>
                     <button className="btn btn-primary mx-3">{product.price}{" "}₹</button>
@@ -53,8 +55,16 @@ function ProductD({ cart, setCart }) {
                         onClick={() => addToCart(product.id, product.title, product.price, product.description, product.imgSrc)}
                         className="btn btn-warning">Add to Cart</button>
                 </div>
-            </div>
+                    </div>
+                    <div className='col  '>
             <Product cart={cart} setCart={setCart} items={relatedProduct} />
+
+                    </div>
+                </div>
+
+                
+            </div>
+            
         </>
     );
 }
