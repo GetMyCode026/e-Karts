@@ -1,6 +1,7 @@
 {
-  "homepage": "<https://GetMyCode026.github.io/E-Shopping>",
+  
   "name": "speech",
+  "homepage" :"<https://GetMyCode026.github.io/E-Shopping>",
   "version": "0.1.0",
   "private": false,
   "dependencies": {

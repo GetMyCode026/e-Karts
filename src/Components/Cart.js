@@ -19,9 +19,9 @@ const Cart = ({ cart, setCart }) => {
             </div>
 }
 
-            <div className='container ' style={{ width: '54%' }}>
-               
-                    {
+            <div className='container ' >
+           
+                {
                     cart.length==0 ?(
                   <>
                   <div className='text-center'>
@@ -34,7 +34,7 @@ const Cart = ({ cart, setCart }) => {
                         return (
                             <>
                           
-                                <div className="card mb-3 my-5 " style={{ width: '700px' }}>
+                                <div className="card mb-3 my-5 " >
                                     <div className="row g-0">
                                         <div className="col-md-4 ">
                                             <img src={product.imgSrc} className="img-fluid rounded-start" alt="..." />
@@ -60,8 +60,8 @@ const Cart = ({ cart, setCart }) => {
                         )
                     })}
 
-
-            </div>
+                </div>
+              
      
                   
                

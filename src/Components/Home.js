@@ -24,9 +24,10 @@ function Home({ setData, cart }) {
 
     return (
         <>
-            <header className='sticky-top'>
-
-                <div className='navbar'>
+            <header className='sticky-top '>
+                <div className='row'>
+                    <div className='col'>
+                    <div className='navbar'>
                     <Link to={'/'} onClick={() => setData(items)} className='brand'>e-Shopping</Link>
 
                     <form onSubmit={handleSubmit} className='search-bar'>
@@ -44,6 +45,11 @@ function Home({ setData, cart }) {
                     </Link>
 
                 </div>
+
+                    </div>
+                </div>
+
+              
 
                 {
                     location.pathname == '/' &&
