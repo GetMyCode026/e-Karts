@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(4, 4, 90);
+    color: white;
+    padding: 20px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.brand{
+    width: 20%;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.search-bar{
+    width: 60%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-bar input{
+    width: 55%;
+    padding: 3px 0;
+}
+.search-bar ::placeholder{
+    font-weight: bold;
+    text-align: center;
+}
+.Kart{
+    width: 20%;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white
+}
+.nav-second{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+    padding: 13px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    width: 500px;
+    height: 500px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
 }
