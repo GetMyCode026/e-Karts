@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/e-Karts/static/css/main.97b7f850.css",
+    "main.js": "/e-Karts/static/js/main.9a6e8126.js",
+    "static/js/592.ab467207.chunk.js": "/e-Karts/static/js/592.ab467207.chunk.js",
+    "index.html": "/e-Karts/index.html",
+    "main.97b7f850.css.map": "/e-Karts/static/css/main.97b7f850.css.map",
+    "main.9a6e8126.js.map": "/e-Karts/static/js/main.9a6e8126.js.map",
+    "592.ab467207.chunk.js.map": "/e-Karts/static/js/592.ab467207.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97b7f850.css",
+    "static/js/main.9a6e8126.js"
+  ]
+}
