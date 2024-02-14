@@ -3,7 +3,7 @@ import './App.css';
 import Home from './Components/Home';
 import Product from './Components/Product';
 
-import { BrowserRouter as Router ,Routes, Route } from 'react-router-dom';
+import { HashRouter as Router ,Routes, Route } from 'react-router-dom';
 import ProductD from './Components/ProductD';
 import SearchD from './Components/SearchD';
 import Cart from './Components/Cart';
